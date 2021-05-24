@@ -1,0 +1,30 @@
+{
+  "name": "hiltes-to-json",
+  "version": "1.0.0",
+  "description": "Small module which converts Hiltes ERP .0000 files to json",
+  "main": "index.js",
+  "scripts": {
+    "test": "standard"
+  },
+  "keywords": [
+    "erp",
+    "hiltes",
+    "json"
+  ],
+  "author": "bluewire.solutions GmbH & Co. KG, Tobias Hocke",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/bluewire-solutions/hiltes-to-json/issues"
+  },
+  "homepage": "https://github.com/bluewire-solutions/hiltes-to-json#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bluewire-solutions/hiltes-to-json.git"
+  },
+  "dependencies": {
+    "fast-csv": "^4.3.6"
+  },
+  "devDependencies": {
+    "standard": "^16.0.3"
+  }
+}
